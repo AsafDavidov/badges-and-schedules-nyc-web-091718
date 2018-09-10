@@ -13,6 +13,7 @@ def assign_rooms(speakers)
   rooms = Array (1..7)
   rooms.each_index do |room| final_list.push("Hello, #{speakers[room]}! You'll be assigned to room #{room}!")
   end
+  
 end
 def printer()
 end
