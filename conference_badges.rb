@@ -10,7 +10,7 @@ def batch_badge_creator(names)
 end
 def assign_rooms(speakers)
   rooms = Array (1..7)
-  
+  rooms.each do |room| 
 end
 def printer()
 end
