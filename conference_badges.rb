@@ -9,8 +9,9 @@ def batch_badge_creator(names)
   badges
 end
 def assign_rooms(speakers)
+  final_list = []
   rooms = Array (1..7)
-  rooms.each do |room| 
+  rooms.each_index do |room|  
 end
 def printer()
 end
