@@ -18,6 +18,10 @@ end
 def printer(attendees)
   badges = batch_badge_creator(attendees)
   rooms = assign_rooms(attendees)
-    puts "#{badges[0]}"
-    puts "#{rooms[0]}"
+  current_index = 0
+  while current_index < attendees.size
+    puts "#{badges[current_index]}"
+    puts "#{rooms[current_index]}"
+    current_index+=1
+  end
 end
