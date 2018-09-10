@@ -11,7 +11,7 @@ end
 def assign_rooms(speakers)
   final_list = []
   rooms = Array (1..7)
-  rooms.each_index do |room| final_list.push("Hello, #{speakers[room+1]}! You'll be assigned to room #{room+1}!")
+  rooms.each_index do |room| final_list.push("Hello, #{speakers[room]}! You'll be assigned to room #{room+1}!")
   end
   final_list
 end
