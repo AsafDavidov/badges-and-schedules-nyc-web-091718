@@ -18,6 +18,6 @@ end
 def printer(attendees)
   badges = batch_badge_creator(attendees)
   rooms = assign_rooms(attendees)
-  puts "#{badges[0]}"
-  puts "#{rooms[0]}"
+    puts "#{badges[0]}"
+    puts "#{rooms[0]}"
 end
