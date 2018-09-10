@@ -11,7 +11,7 @@ end
 def assign_rooms(speakers)
   final_list = []
   rooms = Array (1..7)
-  rooms.each_index do |room|  
+  rooms.each_index do |room| final_list.push("Hello, #{speakers[")
 end
 def printer()
 end
