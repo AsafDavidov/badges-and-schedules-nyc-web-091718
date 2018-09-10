@@ -20,5 +20,4 @@ def printer(attendees)
   rooms = assign_rooms(attendees)
   puts "#{badges}"
   puts "#{rooms}"
- end
 end
